@@ -17,6 +17,7 @@
             "scripts": [
             ],
             "files": [
+                "index.php", "LICENSE", "composer.json"
             ]
         }
     }
