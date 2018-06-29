@@ -25,8 +25,6 @@ class Stelsoft_Version_CHANGELOG {
             wp_die(__('You do not have sufficient permissions to access this page.'));
         }
 
-        include_once 'vendor/autoload.php';
-
         $str = file_exists(ABSPATH . 'CHANGELOG.md') ? file_get_contents(ABSPATH . 'CHANGELOG.md') : '<p>File not found.</p>';
         $html = Markdown::defaultTransform($str);
         echo "<div><h2>CHANGELOG.md</h2><div>$html</div></div>";
