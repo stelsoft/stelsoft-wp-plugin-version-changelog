@@ -1,8 +1,11 @@
 {
     "name": "stelsoft/wp-plugin-version-changelog",
     "description": "Wordpress plugin to show changelog file",
-    "type": "component",
+    "type": "wordpress-plugin",
     "license": "MIT",
+    "require": {
+        "composer/installers": "~1.0"
+    },
     "authors": [
         {
             "name": "Michał Stelmak",
@@ -14,11 +17,7 @@
             "scripts": [
             ],
             "files": [
-                "index.php"
             ]
         }
-    },
-    "config": {
-        "vendor-dir": "wp-content/plugins"
     }
 }
