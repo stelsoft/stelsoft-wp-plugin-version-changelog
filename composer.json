@@ -1,0 +1,21 @@
+{
+    "name": "stelsoft/wp-plugin-version-changelog",
+    "description": "Wordpress plugin to show changelog file",
+    "type": "component",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michał Stelmak",
+            "email": "michal@stelmak.pl"
+        }
+    ],
+    "extra": {
+        "component": {
+            "scripts": [
+            ],
+            "files": [
+                "index.php"
+            ]
+        }
+    }
+}
