@@ -17,5 +17,8 @@
                 "index.php"
             ]
         }
+    },
+    "config": {
+        "vendor-dir": "wp-content/plugins"
     }
 }
