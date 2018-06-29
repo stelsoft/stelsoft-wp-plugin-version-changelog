@@ -1,5 +1,5 @@
 {
-    "name": "stelsoft/wp-plugin-version-changelog",
+    "name": "stelsoft/stelsoft-wp-plugin-version-changelog",
     "description": "Wordpress plugin to show changelog file",
     "type": "wordpress-plugin",
     "license": "MIT",
